@@ -1,127 +1,412 @@
-# Jarvis Desktop Voice Assistant🔥
+<div align="center">
 
-<img src="https://giffiles.alphacoders.com/212/212508.gif" alt="">
+<img width="220" src="https://cdn-icons-png.flaticon.com/512/4712/4712109.png" />
 
-**Have you ever wondered how cool it would be to have your own assistant? Imagine how easier it would be doing Wikipedia searches without opening web browsers, and performing many other daily tasks like playing music with the help of a single voice command, opening different browsers in just a voice command.**
+# 🎙️ Jarvis Desktop Voice Assistant
 
-**This project is simple desktop voice assistant built with python named as “Jarvis Desktop Voice Assistant”. This project is fully completed and error free. It was compiled in VS Code Editor.**
+### Asistente virtual de escritorio controlado por voz desarrollado con Python 🚀
 
-**🔸 Let's be honest, it's not as intelligent as in the movie, but it can do a lot of cool things and automate your daily tasks you do on your personal computers/laptops.**
+<p align="center">
+  <b>Jarvis Desktop Voice Assistant</b> permite automatizar tareas cotidianas mediante comandos de voz, ofreciendo una experiencia similar a un asistente personal inteligente en computadoras de escritorio.
+</p>
 
-## 📌Built with
+<p align="center">
+  <img src="https://img.shields.io/badge/JARVIS-VoiceAssistant-blueviolet?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Python-3.6+-3776AB?style=for-the-badge&logo=python&logoColor=white">
+  <img src="https://img.shields.io/badge/Speech-Recognition-FF6F00?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Desktop-Automation-00C853?style=for-the-badge">
+</p>
 
-<code><img height="30" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png"></code>
+<p align="center">
+  <a href="#-acerca-del-proyecto">Acerca</a> •
+  <a href="#-características">Características</a> •
+  <a href="#-tecnologías-utilizadas">Tecnologías</a> •
+  <a href="#-instalación">Instalación</a> •
+  <a href="#-uso">Uso</a>
+</p>
 
-## 📌Features
-
-It can do a lot of cool things, some of them being:
-
-- Greet user
-- Tell current time and date
-- Launch applications/softwares
-- Open any website
-- Tells about any person (via Wikipedia)
-- Can search anything on Google
-- Plays music
-- Take important note in text file
-- Can take screenshot and save it with custom filename
-- Can tell jokes
-
-## Requirements
-
-Python 3.6+
-
-## 📌Installation
-
-1. **Fork The Repository**
-   - Click the "Fork" button on the top right corner of the repository page.
-
-2. **Clone The Repository**
-   - Clone the forked repository to your local machine:
-     ```bash
-     git clone <URL>
-     cd Jarvis-Desktop-Voice-Assistant
-     ```
-
-3.  **Create and Activate a Virtual Environment**
-     - Create a virtual environment:
-     ```bash
-     python -m venv .venv
-     ```
-   - Activate the virtual environment:
-     - For Windows:
-       ```bash
-       .venv\Scripts\activate
-       ```
-     - For macOS/Linux:
-       ```bash
-       source .venv/bin/activate
-       ```
-   - This activates the virtual environment and should look like `(venv) directory/of/your/project>`
-
-4. **Install Requirements**
-
-   - Install all the requirements given in **[requirements.txt](https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant/blob/main/requirements.txt)** by running the command `pip install -r requirements.txt`
-
-5. **Install PyAudio**  
-   - Follow the instructions given **[here](https://stackoverflow.com/questions/52283840/i-cant-install-pyaudio-on-windows-how-to-solve-error-microsoft-visual-c-14)**
-
-6. **Run the Assistant**
-  - Run the main script:
-    ```bash
-    python jarvis.py
-    ```
-  - Now Enjoy with your own assistant !!!!
-
-7. **Deactivate the Virtual Environment**
-   - After you're done, deactivate the virtual environment:
-     ```bash
-     deactivate
-     ```
-
-## 📌Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## 📌Author
-
-👤 **Kishan Kumar Rai**
-
-- Twitter: [@kishan_rajput23](https://twitter.com/kishan_rajput23)
-- Github: [@kishanrajput23](https://github.com/kishanrajput23)
-- LinkedIn: [@kishan-kumar-rai](https://linkedin.com/in/kishan-kumar-rai-23112000)
-
-## 📌Show your support
-
-Please ⭐️ this repository if this project helped you!
-
-## 📌License
-
-This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
-
-## 📌Learning Resources to Extend This Project
-
-To build this project further and enhance its capabilities, a strong understanding of the following areas is recommended:
-
-### 🐍 Python Fundamentals
-Python is the core language behind this project. A solid grasp of syntax, control flow, functions, and error handling will help you modify and extend the assistant’s functionality.  
-👉 [Python Programming Course](https://www.mygreatlearning.com/academy/premium/master-python-programming)
-
-### 🎙️ Voice Processing & NLP
-Voice commands are processed using speech and text-based techniques. Understanding Natural Language Processing (NLP) concepts such as tokenization and text analysis can help improve voice interaction.  
-👉 [Introduction to NLP](https://www.mygreatlearning.com/academy/learn-for-free/courses/introduction-to-natural-language-processing)
-
-### 🤖 Intelligence & Generative AI
-Currently, the assistant follows predefined logic. By integrating Generative AI concepts, it can be enhanced into a conversational assistant capable of generating intelligent responses and performing web-based tasks.  
-👉 [Introduction to Generative AI](https://www.mygreatlearning.com/academy/premium/master-generative-ai)
-
-### 👁️ Computer Vision
-To make the assistant more advanced, computer vision can be introduced for features like face detection and gesture control. Learning image and video processing fundamentals is a good starting point.  
-👉 [Computer Vision Essentials](https://www.mygreatlearning.com/academy/learn-for-free/courses/computer-vision-essentials)
-
-### 📄 Related Reading
-For a conceptual overview of building voice assistants in Python, you can refer to this article: [CLICK HERE](https://www.mygreatlearning.com/blog/jarvis-desktop-assistant-python-project/)
+</div>
 
 ---
 
-> *Some learning resources mentioned above are shared as part of an educational collaboration.*
+# 🎙️ Acerca del proyecto
+
+**Jarvis Desktop Voice Assistant** es un asistente virtual desarrollado en Python capaz de ejecutar tareas mediante comandos de voz.
+
+El objetivo principal es automatizar acciones frecuentes del sistema operativo sin necesidad de interacción manual constante.
+
+Entre sus capacidades se encuentran:
+
+- 🎤 Reconocimiento de voz
+- 🌐 Navegación web
+- 🎵 Reproducción de música
+- 📚 Búsquedas en Wikipedia
+- 🔎 Consultas en Google
+- 📸 Capturas de pantalla
+- 📝 Creación de notas
+- 😂 Generación de chistes
+- 🖥️ Apertura de aplicaciones
+
+---
+
+# ✨ Características
+
+## 🎤 Reconocimiento de voz
+
+- Escucha comandos hablados
+- Procesamiento de lenguaje básico
+- Respuestas automáticas
+- Interacción por voz
+
+---
+
+## 🌐 Navegación inteligente
+
+- Abrir sitios web
+- Buscar información
+- Consultar Wikipedia
+- Realizar búsquedas en Google
+
+---
+
+## 🖥️ Automatización del sistema
+
+- Abrir programas
+- Ejecutar aplicaciones
+- Gestión rápida de tareas
+- Accesos directos mediante voz
+
+---
+
+## 📸 Herramientas útiles
+
+- Captura de pantalla
+- Creación de notas
+- Consulta de fecha y hora
+- Reproducción de música
+
+---
+
+# 🚀 Funcionalidades principales
+
+## 🕒 Información del sistema
+
+- Mostrar fecha actual
+- Mostrar hora actual
+- Respuestas rápidas
+
+---
+
+## 🎵 Entretenimiento
+
+- Reproducción de música
+- Chistes aleatorios
+- Consultas informativas
+
+---
+
+## 🔍 Búsquedas inteligentes
+
+- Google Search
+- Wikipedia Search
+- Información sobre personas
+- Consultas rápidas
+
+---
+
+## 📸 Productividad
+
+- Guardar notas
+- Tomar screenshots
+- Abrir herramientas del sistema
+
+---
+
+# 🛠️ Tecnologías utilizadas
+
+## 🐍 Lenguaje principal
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python" />
+</p>
+
+- Python 3.6+
+- Programación orientada a objetos
+- Automatización de tareas
+
+---
+
+## 🎤 Procesamiento de voz
+
+<p>
+  <img src="https://skillicons.dev/icons?i=python" />
+</p>
+
+- Speech Recognition
+- PyAudio
+- Text-to-Speech
+- Procesamiento de comandos
+
+---
+
+## 🖥️ Desarrollo
+
+<p>
+  <img src="https://skillicons.dev/icons?i=vscode" />
+</p>
+
+- Visual Studio Code
+- Virtual Environments
+- Gestión de dependencias
+
+---
+
+## 🧰 Herramientas
+
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github" />
+</p>
+
+- Git
+- GitHub
+- Pip
+- Virtualenv
+
+---
+
+# 📂 Estructura del proyecto
+
+```bash
+Jarvis-Desktop-Voice-Assistant/
+│
+├── jarvis.py                # Asistente principal
+├── requirements.txt         # Dependencias
+├── screenshots/             # Capturas generadas
+├── notes/                   # Notas guardadas
+├── assets/                  # Recursos multimedia
+├── .venv/                   # Entorno virtual
+└── README.md
+```
+
+---
+
+# ⚡ Instalación
+
+## 📋 Requisitos
+
+- Python 3.6+
+- Pip
+- PyAudio
+- Git
+- VS Code (opcional)
+
+---
+
+# 🚀 Configuración del proyecto
+
+## 1️⃣ Clonar repositorio
+
+```bash
+git clone https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant.git
+```
+
+---
+
+## 2️⃣ Entrar al proyecto
+
+```bash
+cd Jarvis-Desktop-Voice-Assistant
+```
+
+---
+
+## 3️⃣ Crear entorno virtual
+
+```bash
+python -m venv .venv
+```
+
+---
+
+## 4️⃣ Activar entorno virtual
+
+### Windows
+
+```bash
+.venv\Scripts\activate
+```
+
+### Linux / macOS
+
+```bash
+source .venv/bin/activate
+```
+
+---
+
+## 5️⃣ Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 6️⃣ Instalar PyAudio
+
+Instalar PyAudio según el sistema operativo utilizado.
+
+---
+
+## 7️⃣ Ejecutar Jarvis
+
+```bash
+python jarvis.py
+```
+
+---
+
+# 🎤 Comandos disponibles
+
+## 🌐 Navegación
+
+- Open Google
+- Open YouTube
+- Open Browser
+- Search Wikipedia
+
+---
+
+## 🎵 Multimedia
+
+- Play Music
+- Pause Music
+- Resume Music
+
+---
+
+## 📝 Productividad
+
+- Take Note
+- Save Note
+- Take Screenshot
+
+---
+
+## 🕒 Información
+
+- Tell Time
+- Tell Date
+- Tell Joke
+
+---
+
+# 📚 Recursos para expandir el proyecto
+
+## 🐍 Python
+
+- Programación avanzada
+- Automatización
+- APIs
+
+---
+
+## 🎙️ Procesamiento de voz
+
+- Speech Recognition
+- NLP
+- Conversational AI
+
+---
+
+## 🤖 Inteligencia Artificial
+
+- Generative AI
+- LLMs
+- Chatbots
+
+---
+
+## 👁️ Visión por computadora
+
+- OpenCV
+- Reconocimiento facial
+- Control por gestos
+
+---
+
+# 🚧 Roadmap
+
+## 🔮 Próximas mejoras
+
+- 🤖 Integración con IA generativa
+- 🧠 Conversaciones inteligentes
+- 🌐 Integración con APIs externas
+- 📱 Aplicación móvil
+- 🎥 Reconocimiento facial
+- 👁️ Visión por computadora
+- 🗣️ Mejor procesamiento de lenguaje natural
+
+---
+
+# 🤝 Contribuciones
+
+Las contribuciones son bienvenidas ❤️
+
+## Cómo contribuir
+
+1. Fork del proyecto
+
+```bash
+git checkout -b feature/nueva-funcionalidad
+```
+
+2. Commit
+
+```bash
+git commit -m "✨ Nueva funcionalidad"
+```
+
+3. Push
+
+```bash
+git push origin feature/nueva-funcionalidad
+```
+
+4. Pull Request 🚀
+
+---
+
+# 👨‍💻 Autor
+
+<div align="center">
+
+## Kishan Kumar Rai
+
+Desarrollador apasionado por la automatización, asistentes virtuales y tecnologías de inteligencia artificial 🚀
+
+</div>
+
+---
+
+# 🌟 Apoya el proyecto
+
+⭐ Dale una estrella
+
+🍴 Haz Fork
+
+📢 Comparte el proyecto
+
+---
+
+# 📜 Licencia
+
+Proyecto distribuido bajo licencia MIT.
+
+---
+
+<div align="center">
+
+### 🎙️ Jarvis Desktop Voice Assistant — automatizando tareas mediante comandos de voz 🚀
+
+</div>
