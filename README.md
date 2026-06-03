@@ -177,7 +177,7 @@ Entre sus capacidades se encuentran:
 # 📂 Estructura del proyecto
 
 ```bash
-Jarvis-Desktop-Voice-Assistant/
+JARVIS/
 │
 ├── jarvis.py                # Asistente principal
 ├── requirements.txt         # Dependencias
@@ -207,7 +207,7 @@ Jarvis-Desktop-Voice-Assistant/
 ## 1️⃣ Clonar repositorio
 
 ```bash
-git clone https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant.git
+git clone https://github.com/isairey/JARVIS.git
 ```
 
 ---
@@ -215,7 +215,7 @@ git clone https://github.com/kishanrajput23/Jarvis-Desktop-Voice-Assistant.git
 ## 2️⃣ Entrar al proyecto
 
 ```bash
-cd Jarvis-Desktop-Voice-Assistant
+cd JARVIS
 ```
 
 ---
@@ -377,11 +377,11 @@ git push origin feature/nueva-funcionalidad
 
 ---
 
-# 👨‍💻 Autor
+# 👨‍💻 Desarrollador
 
 <div align="center">
 
-## Kishan Kumar Rai
+## Isai Reyes - FullStack Developer
 
 Desarrollador apasionado por la automatización, asistentes virtuales y tecnologías de inteligencia artificial 🚀
 
